@@ -3,12 +3,6 @@ Created on 4 Jun 2022
 
 @author: laythal-shblawi
 '''
-#Hello World program 
-
-print("Hello World!")
-
-#########################
-
 
 # #Class exercise 
 
@@ -25,8 +19,11 @@ class Dog(Animal):
 shiba=Dog()
 
 print("Shiba has "+str(shiba.eyes)+" eyes")
+print('\n')
 print("Shiba has "+str(shiba.legs)+" legs")
-print("Shiba says "+shiba.talk() )
+print('\n')
+print("Shiba says "+shiba.talk())
+print('\n')
 
 ###########################
 
@@ -45,12 +42,16 @@ class Shape:
     
         
 l= int(input("Enter the Square length : "))
+print('\n')
 w= int(input("Enter the Square width : "))
+print('\n')
 
 
 square=Shape(l,w)
 print("the square Area is : "+ str(square.area()))
+print('\n')
 print("the square Perimeter is : "+ str(square.perimeter()))
+print('\n')
 
 
 
@@ -80,9 +81,13 @@ def days_in_month (year, month):
 
 
 print(is_leap(2024))
+print('\n')
 print(is_leap(2023))
+print('\n')
 print(is_leap(100024))
+print('\n')
 print(days_in_month (2000, 2))
+print('\n')
 print(days_in_month (2000, 4))
 
 
