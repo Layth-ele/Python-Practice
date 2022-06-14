@@ -64,7 +64,6 @@ print(get_mix())
 pow2 = [2 ** x for x in range(10)]
 print(pow2)
 
-
 pow2 = []
 for x in range(10):
    pow2.append(2 ** x)
@@ -79,7 +78,6 @@ print(pow2)
 
 odd = [x for x in range(20) if x % 2 == 1]
 print(odd)
-
 
 
 
