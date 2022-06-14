@@ -28,8 +28,11 @@ emp2.last = 'leo'
 emp2.pay = 85000
 emp2.email = 'test@gmail.com'
 
+
 print(emp1.first +' '+ emp1.last)
 print(emp2.pay)
+print('{} {} {}'.format(emp2.first,emp2.last,emp2.pay))
+
 print('\n')
 
 
@@ -43,12 +46,19 @@ class EmployeeClass:
         self.pay = pay
         self.email = first + '.' + last +'@gmail.com'
         
+    def fullName(self):
+        return '{} {}'.format(self.first,self.last)
+        
 emp_1 = EmployeeClass('layth','Ele',80000)
 emp_2 = EmployeeClass('Sam','Test',85000)
 
 print(emp_1.email)
 print(emp_2.pay)
+print(emp_1.fullName())
+print(EmployeeClass.fullName(emp_2)) #exact same the result with this code  print(emp_1.fullName())
 
+
+      
 
 
 
